@@ -14,8 +14,8 @@ aqua.get("/", async ()=> {
     const url = await QRCode.toDataURL('https://soup.kagescan.fr');
     return `
         <H1>Hello world</H1>
-        <p>Un super site : 
-            <img src=${url} />
+        <p>Un super site : <br>
+            <img src="${url}" />
         </p>
     `;
 });
