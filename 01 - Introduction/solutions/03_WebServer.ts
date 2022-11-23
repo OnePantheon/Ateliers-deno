@@ -1,7 +1,7 @@
 /**
  * Exemple 3 (le plus gros)
  * - Importer la librairie Aqua (https://deno.land/x/aqua@v1.3.5/mod.ts) et faire un hello world
- * - Importer une librairie NPM (npm:cowsay@1.5.0) et afficher un QR Code
+ * - Importer une librairie NPM (npm:qrcode@1.5.0) et afficher un QR Code
  * - Utiliser un import map
  */
 import Aqua from "aqua";
