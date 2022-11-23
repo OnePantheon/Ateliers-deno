@@ -1,0 +1,6 @@
+{
+    "imports": {
+        "aqua": "https://deno.land/x/aqua@v1.3.5/mod.ts",
+        "qrcode": "npm:qrcode@1.5.1"
+    }
+}
