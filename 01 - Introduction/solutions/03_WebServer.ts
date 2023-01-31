@@ -11,7 +11,7 @@ console.log("Démarrage du serveur...");
 
 const aqua = new Aqua(3001);
 aqua.get("/", async ()=> {
-    const url = await QRCode.toDataURL('https://soup.kagescan.fr');
+    const url = await QRCode.toDataURL('https://www.onepantheon.fr/');
     return `
         <H1>Hello world</H1>
         <p>Un super site : <br>
