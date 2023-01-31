@@ -1,18 +1,22 @@
 /**
  * Exemple 2 :
- * - Voici une API très sympa faite par bibi : https://ifuckinghatejira.deno.dev/
- * - Faire appel à cette API
- * - Ne rendre l'affichage du message que si l'utilisateur n'aime pas Jira.
+ * - Importez le module contenant l'endpoint et l'interface de l'API CatFact
+ * - Faire appel à cette API avec fetch
+ * - Ne rendre l'affichage du message que si l'utilisateur le souhaite
  */
 
-// Les APIs web sont supportées :D
-const request = await fetch("https://ifuckinghatejira.deno.dev/");
-const message = await request.text();
+// typescript et ES Module support out of the box
+import {CAT_ENDPOINT, CatResponse} from "./catfact.ts";
 
-const result: boolean = confirm("Aimez-vous jira ? ");
-if (! result) {
-    console.log("\nVoici une opinion honnête sur jira : ");
-    console.log(message);
+// Les APIs web sont supportées :D
+const request = await fetch(CAT_ENDPOINT);
+const response: CatResponse = await request.json();
+const message = response.fact;
+
+const agreed: boolean = confirm("Voulez vous écouter un fait sur les chats ? ");
+if (agreed) {
+    console.log("\nVoici un fait sur les chats : ");
+    console.log(">", message);
 } else {
-    console.log("\nVous aimez jira ? Mieux vaut ne pas dire la vérité.");
+    console.log("\nBon temps pis...");
 }
