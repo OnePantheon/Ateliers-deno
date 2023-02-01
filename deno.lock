@@ -6,7 +6,9 @@
     "https://deno.land/x/aqua@v1.3.5/helpers/parsing.ts": "fce9df5715f497b06dc681285c469eeec6e5d07b3c74ee3b4b17c435058516b3",
     "https://deno.land/x/aqua@v1.3.5/helpers/routing.ts": "44f3f2efc0aa8c1683c3b5c8bf563d365ed622a2fed1c13925a449ed0973294a",
     "https://deno.land/x/aqua@v1.3.5/mod.ts": "b9a7e51ce6582a9e4c14d3988d0d9fcb6bbb45aa0e856d9cdbc7671e01e2802a",
-    "https://deno.land/x/aqua@v1.3.5/shared.ts": "46b807056468913eeb0d3700cb55e54d2d9f7d1cbeab38e33d54f2d26fc53261"
+    "https://deno.land/x/aqua@v1.3.5/shared.ts": "46b807056468913eeb0d3700cb55e54d2d9f7d1cbeab38e33d54f2d26fc53261",
+    "https://deno.land/x/dotenv@v3.2.0/mod.ts": "077b48773de9205266a0b44c3c3a3c3083449ed64bb0b6cc461b95720678d38e",
+    "https://deno.land/x/dotenv@v3.2.0/util.ts": "693730877b13f8ead2b79b2aa31e2a0652862f7dc0c5f6d2f313f4d39c7b7670"
   },
   "npm": {
     "specifiers": {
