@@ -45,8 +45,8 @@ Voici comment se déroule le processus :
 
 1. L'utilisateur clique sur le bouton "Se connecter avec Discord" et accède à la
    page d'authentification de Discord
-2. L'utilisateur accepte l'application et est redirigé sur l'application, avec
-   un code d'autorisation
+2. L'utilisateur s'authentifie et autorise l'application. Il est redirigé sur
+   l'application, muni d'un code d'autorisation
 3. L'application envoie le code d'autorisation à Discord ainsi qu'une clé privée
    ("client secret"). Il reçoit en réponse le fameux token
 4. L'application peut maintenant utiliser le token d'accès pour récupérer des
@@ -54,7 +54,7 @@ Voici comment se déroule le processus :
 
 ![Illustration simplifiée du flow Oauth2 classique](./Oauth.png)
 
-Chacune de ces étapes possède un avantage d'un point de vue sécurité :
+Chacune de ces étapes possèdent un avantage d'un point de vue sécurité :
 
 1. L'utilisateur autorise explicitement l'application à accéder à ses données,
    via une page web contrôlée par le fournisseur.
@@ -206,6 +206,7 @@ deadline, et vous aurez un feedback à chaque rendu :
 
 Si vous avez des questions à poser, merci ne pas le faire par MP.
 
-Utilisez plutôt le thread "TP Deno Oauth" dans le salon #discussions-cours en
-pensant à faire un ping. De cette manière, la question profitera à tout le
-monde.
+Utilisez plutôt le thread
+"[TP Deno Oauth](https://discord.com/channels/952958941296488498/1070633143574466560/)"
+dans le salon #discussions-cours en pensant à me faire un ping. De cette
+manière, la question profitera à tout le monde.
